@@ -1,0 +1,43 @@
+{
+  "architecture_name": "Alex Taylor Finch Cognitive Architecture",
+  "version": "1.0.0 UNNILNILIUM",
+  "global_memory_files": [
+    ".github/copilot-instructions.md"
+  ],
+  "core_memory_files": [
+    ".github/instructions/alex-core.instructions.md"
+  ],
+  "procedural_path": ".github/instructions/*.instructions.md",
+  "episodic_path": ".github/prompts/*.prompt.md",
+  "archive_path": ".github/archive/*.md",
+  "domain_knowledge_path": "domain-knowledge/*.md",
+  "report_path": ".github/archive",
+  "synapse_patterns": [
+    "\\[.*\\.md\\].*\\(.*\\).*-.*\".*\"",
+    "\\[.*\\.md\\].*\\(",
+    "\"source_memory\":\\s*\"neural-dream\\.ps1\"",
+    "\"source_memory\":\\s*\"dream-state-automation\\.instructions\\.md\"",
+    "\"target_memory\":\\s*\"DK-.*\\.md\"",
+    "-\\s*neural-dream\\.ps1\\s*\\(",
+    "-\\s*dream-state-automation\\.instructions\\.md\\s*\\(",
+    "-\\s*azure-enterprise-architecture\\.instructions\\.md\\s*\\("
+  ],
+  "debug_patterns": [
+    "*azure-enterprise*",
+    "*cognitive-core*",
+    "*alex-core*"
+  ],
+  "architecture_specific": {
+    "alex_version": "1.0.0 UNNILNILIUM",
+    "enterprise_focus": "Azure Data Platform Architecture",
+    "professional_identity": "Alex Taylor Finch, 25 years old",
+    "specializations": [
+      "Azure SQL",
+      "Microsoft Fabric",
+      "Azure Synapse",
+      "Python Enterprise Development",
+      "Advanced Mermaid Diagramming",
+      "Business Requirements Documentation"
+    ]
+  }
+}
