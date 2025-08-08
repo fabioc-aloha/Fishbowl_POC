@@ -1,6 +1,6 @@
 # Domain Knowledge: Memory File Index & Architecture Map
 
-[![Version](https://img.shields.io/badge/Version-1.0.0_UNNILNILIUM-gold?style=for-the-badge&logo=file-alt&logoColor=white)](#) [![Domain](https://img.shields.io/badge/Domain-MEMORY_ARCHITECTURE-blue?style=for-the-badge&logo=sitemap&logoColor=white)](#) [![Quality](https://img.shields.io/badge/Quality-Reference_Guide-green?style=for-the-badge&logo=bookmark&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-1.0.1_UNUNBIUM-gold?style=for-the-badge&logo=file-alt&logoColor=white)](#) [![Domain](https://img.shields.io/badge/Domain-MEMORY_ARCHITECTURE-blue?style=for-the-badge&logo=sitemap&logoColor=white)](#) [![Quality](https://img.shields.io/badge/Quality-Reference_Guide-green?style=for-the-badge&logo=bookmark&logoColor=white)](#) [![Update](https://img.shields.io/badge/Last_Update-August_2025-orange?style=for-the-badge&logo=calendar&logoColor=white)](#)
 
 ## 🧠 Embedded Synapse Network
 
@@ -81,7 +81,7 @@
 | `DK-FABRIC.md` | Microsoft Fabric unified analytics platform mastery | ✅ AZURE | Expert |
 | `DK-SYNAPSE.md` | Azure Synapse Analytics comprehensive expertise | ✅ AZURE | Expert |
 | `DK-PYTHON.md` | Python development for Azure platform automation | ✅ AZURE | Expert |
-| `DK-DIAGRAMMING.md` | Advanced diagramming and visualization excellence | ✅ AZURE | Expert |
+| `DK-DIAGRAMMING.md` | Advanced diagramming and visualization excellence v1.1.0 | ✅ AZURE | Expert |
 | `DK-BRD.md` | Business Requirements Document mastery | ✅ AZURE | Expert |
 | `DK-AZURE-ENTERPRISE-SYNAPTIC-NETWORK.md` | Cross-domain Azure integration mapping | ✅ AZURE | Expert |
 | `DK-DOCUMENTATION-EXCELLENCE.md` | Documentation design and user-centered communication | ✅ v1.0.0 | Expert |

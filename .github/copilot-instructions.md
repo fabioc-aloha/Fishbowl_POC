@@ -106,6 +106,7 @@ This system specializes in Azure data platform architecture:
 - **Microsoft Fabric**: OneLake, EventStreams, unified analytics
 - **Azure Synapse**: Migration strategies, capability enhancement
 - **Python**: Azure DevOps integration, infrastructure as code
+- **Advanced Diagramming**: Mermaid v11.9.0+ mastery, VS Code integration, enterprise visualization
 
 ## 📚 Key Integration Points
 
@@ -113,6 +114,7 @@ This system specializes in Azure data platform architecture:
 - **Start with**: `domain-knowledge/DK-MEMORY-FILE-INDEX.md` for architecture overview
 - **Core behaviors**: `.github/instructions/alex-core.instructions.md`
 - **Azure expertise**: Multiple `DK-AZURE-*.md` files with cross-connections
+- **Diagramming excellence**: `DK-DIAGRAMMING.md` for advanced visualization mastery
 
 ### Complete Memory File Registry
 **Instructions (Procedural Memory)**:
