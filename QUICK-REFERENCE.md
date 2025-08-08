@@ -35,6 +35,31 @@
 
 ## ⚡ **Quick Access Commands**
 
+### **Environment Setup & Validation**
+```powershell
+# Validate environment configuration
+python scripts/validate-environment.py
+
+# Setup Python environment with dependencies
+.\setup-environment.ps1 -PythonOnly
+
+# Install required packages including dotenv
+pip install -r requirements.txt
+```
+
+### **Environment Configuration**
+```bash
+# Copy template and configure environment
+cp .env.template .env
+# Edit .env file with your specific values
+
+# Key variables to set:
+# FABRIC_WORKSPACE_ID=1dfcfdc6-64ff-4338-8eec-2676ff0f5884
+# STORAGE_ACCOUNT_NAME=cpestaginglake
+# DATA_FORMAT=PARQUET
+# TABLE_PREFIX=staging_
+```
+
 ### **Environment & Connection**
 ```powershell
 # Check Azure authentication
@@ -111,6 +136,19 @@ Storage Account: cpestaginglake
 Synapse Workspace: cpesynapse
 Fabric Workspace: 1dfcfdc6-64ff-4338-8eec-2676ff0f5884
 Fabric Environment: MSIT (msit.powerbi.com.mcas.ms)
+```
+
+### **Environment File Configuration**
+The project now uses a `.env` file for configuration management:
+```bash
+# Core configuration in .env file
+FABRIC_WORKSPACE_ID=1dfcfdc6-64ff-4338-8eec-2676ff0f5884
+STORAGE_ACCOUNT_NAME=cpestaginglake
+DATA_FORMAT=PARQUET
+TABLE_PREFIX=staging_
+USE_WORKSPACE_ID=true
+
+# Full configuration available in .env.template
 ```
 
 ---

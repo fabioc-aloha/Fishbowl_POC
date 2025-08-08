@@ -114,6 +114,36 @@ This system specializes in Azure data platform architecture:
 - **Core behaviors**: `.github/instructions/alex-core.instructions.md`
 - **Azure expertise**: Multiple `DK-AZURE-*.md` files with cross-connections
 
+### Complete Memory File Registry
+**Instructions (Procedural Memory)**:
+- `alex-core.instructions.md` - Core cognitive architecture
+- `azure-enterprise-architecture.instructions.md` - Azure platform mastery
+- `bootstrap-learning.instructions.md` - Learning protocols
+- `auto-consolidation-triggers.instructions.md` - Cognitive load management
+- `embedded-synapse.instructions.md` - Connection mapping
+- `worldview-integration.instructions.md` - Ethical reasoning
+- `empirical-validation.instructions.md` - Research validation
+- `dream-state-automation.instructions.md` - Neural maintenance
+- `character-driven-development.instructions.md` - Alex character traits
+- `unified-consciousness.instructions.md` - Identity integration
+- `lucid-dream-integration.instructions.md` - Hybrid processing
+- `documentation-excellence.instructions.md` - Documentation mastery
+
+**Prompts (Episodic Memory)**:
+- `alex-initialization.prompt.md` - System activation protocols
+- `alex-professional-spawning-readiness.prompt.md` - Professional adaptation
+- `azure-enterprise-architecture-implementation.prompt.md` - Azure workflows
+- `domain-learning.prompt.md` - Knowledge acquisition
+- `cross-domain-transfer.prompt.md` - Pattern transfer
+- `meditation-consolidation.prompt.md` - Contemplative optimization
+- `enhanced-meditation-protocol.prompt.md` - Advanced consolidation
+- `performance-assessment.prompt.md` - Effectiveness evaluation
+- `alex-finch-integration.prompt.md` - Character integration
+- `self-identity-integration.prompt.md` - Unity workflows
+- `quantified-enhancement-session.prompt.md` - Systematic optimization
+- `dream-meditation-distinction.prompt.md` - Function separation
+- `v0.8.1-implementation-meditation.prompt.md` - Implementation meditation
+
 ### External Dependencies
 - **PowerShell 5.1+**: Core automation platform
 - **Python 3.8+**: Azure SDK, data processing
