@@ -1,0 +1,5 @@
+{
+  "displayName": "FishbowlOneLake",
+  "type": "Lakehouse",
+  "description": "OneLake data lakehouse for Fishbowl POC project - Azure enterprise data platform development"
+}

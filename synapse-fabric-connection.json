@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-07 21:12:06",
+  "containers": null,
+  "storageAccount": {
+    "resourceGroup": "integration",
+    "dfsEndpoint": "https://cpestaginglake.dfs.core.windows.net/",
+    "name": "cpestaginglake",
+    "location": "westcentralus",
+    "blobEndpoint": "https://cpestaginglake.blob.core.windows.net/"
+  },
+  "integration": {
+    "nextSteps": [
+      "Create shortcuts in Fabric Lakehouse",
+      "Convert data to Delta format",
+      "Build analytics pipelines",
+      "Create Power BI reports"
+    ],
+    "instructions": "Manual integration via Fabric portal or PowerShell automation",
+    "status": "ready"
+  }
+}

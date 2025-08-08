@@ -1,0 +1,82 @@
+# 🎓 Microsoft Fabric Learning Path - Beginner's Guide
+
+[![Fabric](https://img.shields.io/badge/Microsoft_Fabric-Learning_Path-orange?style=for-the-badge&logo=microsoft)](https://fabric.microsoft.com) [![OneLake](https://img.shields.io/badge/OneLake-Hands_On-blue?style=for-the-badge&logo=database)](.) [![Beginner](https://img.shields.io/badge/Level-Beginner_Friendly-green?style=for-the-badge&logo=graduation-cap)](.)
+
+**Created**: August 7, 2025  
+**For**: fabioc@microsoft.com  
+**Learning Style**: Hands-on with step-by-step guidance  
+**Prerequisites**: Your environment is already set up! ✅
+
+## 🎯 **Learning Objectives**
+
+By the end of this guide, you'll be able to:
+- ✅ Navigate Microsoft Fabric with confidence
+- ✅ Upload and manage data in OneLake
+- ✅ Create your first Delta tables
+- ✅ Write basic SQL queries in Fabric
+- ✅ Build simple data pipelines
+- ✅ Create your first Power BI report
+- ✅ Understand real-time analytics with EventStreams
+
+---
+
+## 🚀 **Learning Path Overview**
+
+```mermaid
+graph TD
+    A[Start Here: Fabric Basics] --> B[Lesson 1: Upload Your First File]
+    B --> C[Lesson 2: Create Delta Tables]
+    C --> D[Lesson 3: Query Your Data]
+    D --> E[Lesson 4: Build Data Pipeline]
+    E --> F[Lesson 5: Create Power BI Report]
+    F --> G[Lesson 6: Real-time Analytics]
+    G --> H[Advanced Topics]
+    
+    style A fill:#e1f5fe
+    style H fill:#f3e5f5
+```
+
+**Estimated Time**: 4-6 hours (spread over several sessions)
+
+---
+
+## 📚 **Lesson 1: Your First Steps in Fabric**
+
+### **🎯 Goal**: Get comfortable with the Fabric interface and upload your first data file
+
+### **Step 1: Access Your Workspace**
+```powershell
+# Open your Fabric workspace
+.\scripts\synapse-onelake-connector.ps1 -Operation connect
+```
+**Or manually**: Go to https://fabric.microsoft.com → Fishbowl_POC workspace
+
+### **Step 2: Explore the Interface**
+1. **📍 Find these key areas:**
+   - Left navigation: Data Engineering, Data Science, Power BI
+   - Main workspace: Your FishbowlOneLake lakehouse
+   - Top menu: Create new items, settings
+
+2. **🖱️ Click on "FishbowlOneLake"** to enter your lakehouse
+
+3. **👀 Notice the structure:**
+   - **Files**: For any file type (CSV, JSON, Parquet, etc.)
+   - **Tables**: For structured Delta tables
+   - **SQL analytics endpoint**: For running queries
+
+### **Step 3: Create Sample Data**
+Let's create a simple CSV file to upload:
+
+<function_calls>
+<invoke name="create_file">
+<parameter name="content">ProductID,ProductName,Category,Price,InStock
+1,Laptop Pro,Electronics,1299.99,25
+2,Wireless Mouse,Electronics,29.99,100
+3,Coffee Mug,Office Supplies,12.99,50
+4,Desk Lamp,Office Supplies,45.99,30
+5,Smartphone,Electronics,799.99,15
+6,Notebook,Office Supplies,5.99,200
+7,Monitor 24inch,Electronics,249.99,40
+8,Desk Chair,Furniture,199.99,10
+9,Keyboard,Electronics,79.99,60
+10,Water Bottle,Office Supplies,15.99,75

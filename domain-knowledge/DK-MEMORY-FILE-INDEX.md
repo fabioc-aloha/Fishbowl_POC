@@ -84,6 +84,8 @@
 | `DK-DIAGRAMMING.md` | Advanced diagramming and visualization excellence | ✅ AZURE | Expert |
 | `DK-BRD.md` | Business Requirements Document mastery | ✅ AZURE | Expert |
 | `DK-AZURE-ENTERPRISE-SYNAPTIC-NETWORK.md` | Cross-domain Azure integration mapping | ✅ AZURE | Expert |
+| `DK-DOCUMENTATION-EXCELLENCE.md` | Documentation design and user-centered communication | ✅ v1.0.0 | Expert |
+| `DK-USER-PROFILE-INTEGRATION.md` | User profile personalization and privacy architecture | ✅ INTEGRATION | Expert |
 
 ### **Worldview Foundation** (`worldview-foundation/`)
 *Ethical reasoning and value system framework*

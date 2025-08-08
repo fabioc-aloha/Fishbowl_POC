@@ -1,0 +1,157 @@
+{
+    "folders": [
+        {
+            "name": "🏗️ Fishbowl POC - Alex Taylor Finch",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.instructions.md": "markdown",
+            "*.prompt.md": "markdown",
+            "DK-*.md": "markdown"
+        },
+        "markdown.preview.themes": ["dark"],
+        "editor.wordWrap": "on",
+        "editor.rulers": [80, 120],
+        "files.exclude": {
+            "**/.git": true,
+            "**/node_modules": true,
+            "**/__pycache__": true,
+            "**/.pytest_cache": true
+        },
+        "python.defaultInterpreterPath": "python",
+        "jupyter.interactiveWindow.collapseCellInputCode": false,
+        "powershell.codeFormatting.preset": "OTBS",
+        "powershell.scriptAnalysis.enable": true,
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "source": "PowerShell",
+                "icon": "terminal-powershell",
+                "args": ["-NoLogo"]
+            }
+        },
+        "terminal.integrated.defaultProfile.windows": "PowerShell",
+        "workbench.colorCustomizations": {
+            "terminal.background": "#1a1a2e",
+            "terminal.foreground": "#eee"
+        },
+        "git.openRepositoryInParentFolders": "always",
+        "azure.tenant": "",
+        "azure.cloud": "AzureCloud"
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.flake8",
+            "ms-python.autopep8", 
+            "ms-toolsai.jupyter",
+            "ms-vscode.powershell",
+            "ms-azuretools.vscode-azureresourcegroups",
+            "ms-azuretools.vscode-azurestorage",
+            "ms-azuretools.vscode-azurefunctions",
+            "ms-mssql.mssql",
+            "bierner.markdown-mermaid",
+            "DavidAnson.vscode-markdownlint",
+            "streetsidesoftware.code-spell-checker"
+        ]
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "🧠 Neural Dream Health Check",
+                "type": "shell",
+                "command": "pwsh",
+                "args": [
+                    "-Command",
+                    ". .\\scripts\\neural-dream.ps1; dream --health-check"
+                ],
+                "group": "test",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always",
+                    "focus": false,
+                    "panel": "shared"
+                },
+                "problemMatcher": []
+            },
+            {
+                "label": "🔧 Neural Network Optimization",
+                "type": "shell", 
+                "command": "pwsh",
+                "args": [
+                    "-Command",
+                    ". .\\scripts\\neural-dream.ps1; dream --network-optimization"
+                ],
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always",
+                    "focus": false,
+                    "panel": "shared"
+                },
+                "problemMatcher": []
+            },
+            {
+                "label": "🐍 Setup Python Environment",
+                "type": "shell",
+                "command": "pwsh", 
+                "args": [
+                    "-File",
+                    "setup-environment.ps1",
+                    "-PythonOnly"
+                ],
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always",
+                    "focus": false,
+                    "panel": "shared"
+                },
+                "problemMatcher": []
+            },
+            {
+                "label": "☁️ Setup Azure Tools",
+                "type": "shell",
+                "command": "pwsh",
+                "args": [
+                    "-File", 
+                    "setup-environment.ps1",
+                    "-AzureOnly"
+                ],
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always", 
+                    "focus": false,
+                    "panel": "shared"
+                },
+                "problemMatcher": []
+            }
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "🐍 Python: Current File",
+                "type": "debugpy",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}"
+                }
+            },
+            {
+                "name": "💤 Neural Dream Debug",
+                "type": "PowerShell",
+                "request": "launch",
+                "script": "${workspaceFolder}/scripts/neural-dream.ps1",
+                "cwd": "${workspaceFolder}"
+            }
+        ]
+    }
+}
