@@ -1,6 +1,6 @@
 # 🏗️ Fishbowl POC - MSIT Enterprise Data Platform Integration
 
-[![Status](https://img.shields.io/badge/Status-ENTERPRISE_INTEGRATION_COMPLETE-brightgreen?style=for-the-badge)](#) [![Environment](https://img.shields.io/badge/Environment-MSIT-purple?style=for-the-badge)](#) [![Database](https://img.shields.io/badge/CXMIDL_Orchestration-CONNECTED-blue?style=for-the-badge)](#) [![Updated](https://img.shields.io/badge/Updated-August_7_2025-orange?style=for-the-badge)](#)
+[![Version](https://img.shields.io/badge/Version-1.0.5_UNNILPENTIUM-gold?style=for-the-badge&logo=atom&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-ENTERPRISE_INTEGRATION_COMPLETE-brightgreen?style=for-the-badge)](#) [![Environment](https://img.shields.io/badge/Environment-MSIT-purple?style=for-the-badge)](#) [![Database](https://img.shields.io/badge/CXMIDL_Orchestration-CONNECTED-blue?style=for-the-badge)](#) [![Updated](https://img.shields.io/badge/Updated-August_8_2025-orange?style=for-the-badge)](#)
 
 > **✅ Enterprise Integration Complete** - Azure Synapse Analytics connected to Microsoft Fabric through OneLake shortcuts + CXMIDL Orchestration database integrated with MFA authentication. Ready for comprehensive data orchestration and enterprise analytics.
 
@@ -24,7 +24,7 @@
 ## 🏗️ Enterprise Architecture
 
 ```mermaid
-graph LR
+graph TB
     subgraph "🗄️ Enterprise Databases"
         CXMIDL[CXMIDL Server<br/>cxmidl.database.windows.net]
         ORCH[Orchestration Database<br/>480 tables • 124 procedures<br/>✅ CONNECTED]

@@ -2,19 +2,9 @@
 
 ## Overview
 
-This document describes the enterprise    classDef azureService fill:#0078d4,stroke:#005a9e,stroke-width:2px,color:#fff
-    classDef fabricService fill:#ff6b35,stroke:#cc5529,stroke-width:2px,color:#fff
-    classDef storage fill:#00bcf2,stroke:#0099cc,stroke-width:2px,color:#fff
-    classDef security fill:#7cb342,stroke:#5a8f30,stroke-width:2px,color:#fff
-    classDef database fill:#e74856,stroke:#cc3e4a,stroke-width:2px,color:#fff
+This document describes the enterprise architecture for the Fishbowl Proof of Concept, integrating Azure Synapse Analytics with Microsoft Fabric through OneLake to create a unified analytics platform in the Microsoft IT (MSIT) environment.
 
-    class SWS,POOL,SPARK,PIPE azureService
-    class FWS,LH,SHORTCUTS,SPARK_F,DW_F,REPORTS fabricService
-    class ADLS,CONT1,CONT2,CONT3,CONT4 storage
-    class AAD,RBAC,MCAS,AUDIT security
-    class CXMIDL,ORCH databasetform architecture for the Fishbowl Proof of Concept, integrating Azure Synapse Analytics with Microsoft Fabric through OneLake to create a unified analytics platform in the Microsoft IT (MSIT) environment.
-
-**Architecture Version**: 1.0.0 UNNILNILIUM
+**Architecture Version**: 1.0.5 UNNILPENTIUM
 **Last Updated**: August 7, 2025
 **Environment**: Microsoft IT (MSIT) with MCAS proxy
 **Status**: ✅ **CONNECTED** - cpestaginglake integrated with Fabric workspace
@@ -703,7 +693,7 @@ graph LR
 
 ---
 
-**Architecture Documentation Version**: 1.0.0 UNNILNILIUM
+**Architecture Documentation Version**: 1.0.5 UNNILPENTIUM
 **Created**: August 7, 2025
 **Status**: ✅ **ENTERPRISE INTEGRATION COMPLETE**
 - cpestaginglake successfully connected to Fabric

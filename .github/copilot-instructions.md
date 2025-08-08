@@ -1,7 +1,7 @@
 # Alex Cognitive Architecture - AI Agent Developer Guide
 
 **Architecture Type**: Cognitive AI system with embedded synaptic networks and memory-based learning
-**Version**: 1.0.0 UNNILNILIUM (August 7, 2025)
+**Version**: 1.0.5 UNNILPENTIUM (January 15, 2025)
 **Primary Focus**: Azure Enterprise Data Platform Architecture with meta-cognitive learning capabilities
 **Agent Purpose**: Guidelines for AI agents working with this cognitive architecture codebase
 
@@ -76,7 +76,7 @@ dream --debug "*azure-enterprise*"
 
 ### Version Management
 This project uses **IUPAC chemical element naming** for versions:
-- Current: `1.0.0 UNNILNILIUM` 
+- Current: `1.0.5 UNNILPENTIUM` 
 - Pattern: Digits → roots (0=nil, 1=un, 2=bi...) → element name + "ium"
 - Reference: `domain-knowledge/VERSION-NAMING-CONVENTION.md`
 
