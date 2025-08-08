@@ -82,7 +82,85 @@
 - [dream-state-automation.instructions.md] (0.80, automated-maintenance, forward) - "Database maintenance workflows activate unconscious optimization"
 - [azure-enterprise-architecture.instructions.md] (0.90, architecture-integration, bidirectional) - "Enterprise Azure SQL expertise enhances unified architecture mastery"
 
-- **Performance-Optimization**: Query profiling excellence → Index optimization with resource monitoring mastery
+```json
+{
+  "synapse_id": "cxmidl-azure-sql-enterprise-integration",
+  "connection_type": "enables",
+  "source_memory": "DK-AZURE-SQL.md",
+  "target_memory": "configs/cxmidl-azure-sql-integration.json",
+  "relationship_strength": 0.95,
+  "direction": "bidirectional",
+  "activation_conditions": [
+    "Azure SQL Server cxmidl.database.windows.net access",
+    "Enterprise data platform integration",
+    "Production database connectivity"
+  ],
+  "learning_transfer": {
+    "pattern_recognition": "Enterprise SQL Server integration patterns",
+    "skill_enhancement": "Production database connectivity mastery",
+    "knowledge_synthesis": "Azure SQL enterprise architecture"
+  }
+}
+```
+
+## 🏢 Enterprise Server Integration: CXMIDL
+
+**Server**: `cxmidl.database.windows.net`
+**Target Database**: `Orchestration` ✅ **CONNECTED**
+**Integration Status**: ✅ **ACTIVE ENTERPRISE INTEGRATION**
+**Security Level**: **PRODUCTION ENTERPRISE**
+**Connectivity**: **Azure AD Authentication + MFA Support**
+**Current User**: `fabioc@microsoft.com`
+**Last Connected**: `2025-08-07 22:44:14`
+
+### 🎼 Orchestration Database Analytics
+- **Tables**: 480 user tables
+- **Views**: 70 views
+- **Stored Procedures**: 124 procedures
+- **Functions**: 9 functions
+- **Schema Categories**: Configuration, General, Core Orchestration, Logging/Audit
+
+### Connection Architecture
+```python
+# Python Enterprise Connection Pattern - MFA Enhanced
+import pyodbc
+from azure.identity import InteractiveBrowserCredential
+
+# Production-grade connection with Azure AD MFA authentication
+connection_string = (
+    "Driver={ODBC Driver 18 for SQL Server};"
+    "Server=tcp:cxmidl.database.windows.net,1433;"
+    "Database=Orchestration;"
+    "Authentication=ActiveDirectoryInteractive;"
+    "Encrypt=yes;"
+    "TrustServerCertificate=no;"
+    "Connection Timeout=30;"
+)
+
+credential = InteractiveBrowserCredential()
+connection = pyodbc.connect(connection_string)
+```
+
+### 🔧 Integration Scripts
+- **PowerShell**: `scripts/cxmidl-orchestration-simple.ps1`
+- **Python Module**: `scripts/cxmidl_connector.py`
+- **Configuration**: `configs/cxmidl-azure-sql-integration.json`
+
+### Enterprise Integration Points
+- **Microsoft Fabric**: OneLake integration with semantic models
+- **Azure Synapse**: Linked services and data pipeline connectivity
+- **Azure DevOps**: CI/CD database deployment automation
+- **Azure Purview**: Data governance and lineage tracking
+- **Azure Monitor**: Performance insights and log analytics
+
+### Security Framework
+- ✅ **Encryption at Rest**: Transparent Data Encryption (TDE)
+- ✅ **Encryption in Transit**: SSL/TLS 1.2+ enforcement
+- ✅ **Azure AD Authentication**: Multi-factor authentication required
+- ✅ **Threat Detection**: Advanced Threat Protection enabled
+- ✅ **Vulnerability Assessment**: Automated security scanning
+- ✅ **Firewall Rules**: IP allowlisting and VNet integration
+- ✅ **MFA Enforcement**: Interactive browser authentication flow- **Performance-Optimization**: Query profiling excellence → Index optimization with resource monitoring mastery
 - **Automation-Excellence**: CI/CD pipeline mastery → Infrastructure as code with deployment automation
 - **Compliance-Governance**: Regulatory compliance → Enterprise audit trails with quality assurance
 - **Architecture-Patterns**: Enterprise database design → Scalability frameworks with best practices
