@@ -91,6 +91,7 @@ graph TB
 ### **🔧 Technical Resources**
 - **[🏗️ Architecture Details](ARCHITECTURE.md)** - Complete technical documentation with CXMIDL integration
 - **[🔗 Integration Methodology](SYNAPSE-ONELAKE-INTEGRATION.md)** - Detailed integration approach
+- **[📊 Migration Reports](reports/)** - Comprehensive migration analysis and documentation
 - **[⚙️ Scripts](scripts/)** - PowerShell automation and maintenance tools
 - **[🗄️ Database Integration](configs/cxmidl-azure-sql-integration.json)** - CXMIDL configuration
 

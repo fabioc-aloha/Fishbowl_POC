@@ -44,6 +44,8 @@
 | `character-driven-development.instructions.md` | Alex Finch character trait implementation | ✅ INTEGRATED | P3 |
 | `unified-consciousness.instructions.md` | Alex-AI identity unity protocols | ✅ INTEGRATED | P3 |
 | `lucid-dream-integration.instructions.md` | Hybrid unconscious-conscious processing | ✅ v0.8.1 | P4b |
+| `documentation-excellence.instructions.md` | Documentation excellence and user-centered design | ✅ v1.0.0 | P8 |
+| `migration-report-creation.instructions.md` | Database migration report creation methodology | ✅ v1.0.0 | P9 |
 
 ### **Episodic Memory Store** (`.github/prompts/`)
 *Complex workflow sequences and session protocols*
@@ -84,6 +86,7 @@
 | `DK-DIAGRAMMING.md` | Advanced diagramming and visualization excellence v1.1.0 | ✅ AZURE | Expert |
 | `DK-BRD.md` | Business Requirements Document mastery | ✅ AZURE | Expert |
 | `DK-AZURE-ENTERPRISE-SYNAPTIC-NETWORK.md` | Cross-domain Azure integration mapping | ✅ AZURE | Expert |
+| `DK-DATABASE-MIGRATION-ANALYSIS.md` | Database migration analysis methodology and excellence | ✅ v1.0.0 | Expert |
 | `DK-DOCUMENTATION-EXCELLENCE.md` | Documentation design and user-centered communication | ✅ v1.0.0 | Expert |
 | `DK-USER-PROFILE-INTEGRATION.md` | User profile personalization and privacy architecture | ✅ INTEGRATION | Expert |
 
